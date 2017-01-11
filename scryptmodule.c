@@ -51,7 +51,7 @@ static struct PyModuleDef ScryptModule = {
 };
 
 PyMODINIT_FUNC PyInit_ltc_scrypt(void) {
-    return(PyModule_Create(&ScryptModule);
+    return(PyModule_Create(&ScryptModule));
 }
 
 
